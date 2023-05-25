@@ -1,35 +1,28 @@
-<nav class="navbar navbar-expand navbar-light bg-success topbar mb-4 static-top shadow">
+<nav class="navbar navbar-expand navbar-light bg-light topbar mb-4 static-top shadow">
 
     <!-- Sidebar Toggle (Topbar) -->
-    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+    {{-- <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
         <i class="fa fa-bars"></i>
-    </button>
+    </button> --}}
 
     <!-- Topbar Search -->
-    <form
-        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-        <div class="input-group">
-            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                aria-label="Search" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <button class="btn btn-success" type="button">
-                    <i class="fas fa-search fa-sm"></i>
-                </button>
-            </div>
-        </div>
-    </form>
+    <div class="d-flex align-items-center d-flex justify-content-center">
+        <h1 class="h3 text-light-900">DASHBOARD</h1>
+        <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-dark shadow-sm   "><i
+                class="fas fa-download fa-sm text-white-50"></i> Laporan </a> -->
+    </div>
 
     <!-- Topbar Navbar -->
     <ul class="navbar-nav ml-auto ">
 
         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-        <li class="nav-item dropdown no-arrow d-sm-none">
+        {{-- <li class="nav-item dropdown no-arrow d-sm-none">
             <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-search fa-fw"></i>
-            </a>
+            </a> --}}
             <!-- Dropdown - Messages -->
-            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+            {{-- <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
                 aria-labelledby="searchDropdown">
                 <form class="form-inline mr-auto w-100 navbar-search">
                     <div class="input-group">
@@ -43,25 +36,25 @@
                         </div>
                     </div>
                 </form>
-            </div>
-        </li>
+            </div> --}}
+        {{-- </li> --}}
 
         <!-- Nav Item - Alerts -->
-        <li class="nav-item dropdown no-arrow mx-1">
+        {{-- <li class="nav-item dropdown no-arrow mx-1">
             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-bell fa-fw"></i>
                 <!-- Counter - Alerts -->
                 <span class="badge badge-danger badge-counter">3+</span>
-            </a>
+            </a> --}}
             <!-- Dropdown - Alerts -->
-            <div class="dropdown-list dropdown-menu dropdown-menu-right bg-success animated--grow-in"
+            {{-- <div class="dropdown-list dropdown-menu dropdown-menu-right bg-success animated--grow-in"
                 aria-labelledby="alertsDropdown">
                 <h6 class="dropdown-header bg-dark">
                     Alerts Center
-                </h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="mr-3">
+                </h6> --}}
+                {{-- <a class="dropdown-item d-flex align-items-center" href="#"> --}}
+                    {{-- <div class="mr-3">
                         <div class="icon-circle bg-primary">
                             <i class="fas fa-file-alt text-white"></i>
                         </div>
@@ -75,9 +68,9 @@
                     <div class="mr-3">
                         <div class="icon-circle bg-success">
                             <i class="fas fa-donate text-white"></i>
-                        </div>
-                    </div>
-                    <div>
+                        </div> --}}
+                    {{-- </div> --}}
+                    {{-- <div>
                         <div class="small text-gray-500">December 7, 2019</div>
                         $290.29 has been deposited into your account!
                     </div>
@@ -95,10 +88,10 @@
                 </a>
                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
             </div>
-        </li>
+        </li> --}}
 
         <!-- Nav Item - Messages -->
-        <li class="nav-item dropdown no-arrow mx-1">
+        {{-- <li class="nav-item dropdown no-arrow mx-1">
             <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-envelope fa-fw"></i>
@@ -111,8 +104,8 @@
                 <h6 class="dropdown-header bg-success">
                     Message Center
                 </h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="dropdown-list-image mr-3">
+                <a class="dropdown-item d-flex align-items-center" href="#"> --}}
+                    {{-- <div class="dropdown-list-image mr-3">
                         <img class="rounded-circle" src="admin/img/undraw_profile_1.svg"
                             alt="...">
                         <div class="status-indicator bg-success"></div>
@@ -133,8 +126,8 @@
                         <div class="text-truncate">I have the photos that you ordered last month, how
                             would you like them sent to you?</div>
                         <div class="small text-gray-500">Jae Chun · 1d</div>
-                    </div>
-                </a>
+                    </div> --}}
+                {{-- </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
                     <div class="dropdown-list-image mr-3">
                         <img class="rounded-circle" src="admin/img/undraw_profile_3.svg"
@@ -146,8 +139,8 @@
                             the progress so far, keep up the good work!</div>
                         <div class="small text-gray-500">Morgan Alvarez · 2d</div>
                     </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                </a> --}}
+                {{-- <a class="dropdown-item d-flex align-items-center" href="#">
                     <div class="dropdown-list-image mr-3">
                         <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
                             alt="...">
@@ -163,37 +156,37 @@
             </div>
         </li>
 
-        <div class="topbar-divider d-none d-sm-block"></div>
+        <div class="topbar-divider d-none d-sm-block"></div> --}}
 
         <!-- Nav Item - User Information -->
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">HALLO PEGADAIAN</span>
-                <img class="img-profile rounded-circle"
-                    src="admin/img/undraw_profile.svg">
+                <span class="mr-2 d-none d-lg-inline text-success-300 "></span>
+                {{-- <img class="img-profile rounded-circle"
+                    src="admin/img/undraw_profile.svg"> --}}
             </a>
             <!-- Dropdown - User Information -->
-            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+            {{-- <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                 aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="#">
                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Profile
+                   
                 </a>
                 <a class="dropdown-item" href="#">
                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Settings
+                  
                 </a>
                 <a class="dropdown-item" href="#">
                     <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Activity Log
+                
                 </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Logout
+                   
                 </a>
-            </div>
+            </div> --}}
         </li>
 
     </ul>

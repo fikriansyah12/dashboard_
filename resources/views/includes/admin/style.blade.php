@@ -8,3 +8,5 @@
     <link href="admin/css/sb-admin-2.min.css" rel="stylesheet">
 
     <link href="admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
+    

@@ -77,6 +77,8 @@
         </div>
     </div>
 
+    
+
    @include('includes.admin.script')
 
 </body>

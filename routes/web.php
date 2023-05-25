@@ -25,10 +25,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home',[HomeController::class,'index']);
-Route::get('/gallery',[GalleryController::class,'index']);
-Route::get('/collection',[CollectionController::class,'index']);
-Route::get('/contact',[ContactController::class,'index']);
+
+
 Route::get('/dashboard',[DashboardController::class,'index']);
 Route::get('/admingallery',[AdminGalleyController::class,'index']);
 Route::get('/admincollection',[AdminGalleyController::class,'index']);
