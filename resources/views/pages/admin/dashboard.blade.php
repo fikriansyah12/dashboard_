@@ -371,26 +371,6 @@ $con = mysqli_connect("localhost", "root", "", "filters");
                     </tbody>
                 </table>
             </div>
-                        <script type="text/javascript">
-                            $(document).ready(function(){
-                                $("#status").on('change',function(){
-                                    var value=$(this).val();
-                                    alert(value);
-
-                                    $.ajax({
-                                        url:"fetch.blade.php",
-                                        type:"POST",
-                                        data: 'request=' + value;
-                                        beforeSend:function(){
-                                            $(".container").html("<span>Working...</span>");
-
-                                        },
-                                        success:function(data){
-                                            $(".container").html(data);
-                                    }
-                                    });
-                                });
-                            });
         
         </div>
     </div>
