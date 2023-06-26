@@ -51,6 +51,10 @@
     box-sizing: border-box;
 }
 
+#pagination {
+    display: flex;
+    justify-content: center;
+  }
 html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -79,9 +83,9 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #858796;
+    color: black;
     text-align: left;
-    background-color: #fff;
+    background-color: blue;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -11743,4 +11747,5 @@ footer.sticky-footer .copyright {
 
 body.sidebar-toggled footer.sticky-footer {
     width: 100%;
+    color: white;
 }

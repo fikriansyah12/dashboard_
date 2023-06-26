@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+h1{
+    color: red;
+    background-color:blue;
+}
 body {
     font-family: "calibri";
+    background-color: blue;
 }
 
 .bg-black {
@@ -93,7 +97,7 @@ body {
 }
 
 .section-header .header-content .create-now:hover {
-    color: #309e72 !important;
+    color: white !important;
     background-color: white;
 }
 
