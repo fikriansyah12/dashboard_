@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,12 +12,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <link href="{{asset('/admin/css/sb-admin-2.css')}}" rel="stylesheet">
     <title>WEBSITE PEGADAIAN</title>
-        @include('includes.admin.style')
+    @include('includes.admin.style')
 
 </head>
 
-<body id="page-top">
+<body id="page-top" class="text-dark">
 
     <!-- Page Wrapper -->
     <div id="wrapper">
@@ -24,7 +28,7 @@
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
-        <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content-wrapper" class="d-flex flex-column" style="background-color: #D9E8FF">
 
             <!-- Main Content -->
             <div id="content">

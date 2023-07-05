@@ -1,16 +1,17 @@
-<nav class="navbar navbar-expand navbar-light bg-light topbar mb-4 static-top shadow">
-
+<nav class="navbar navbar-expand navbar-light topbar mb-4 static-top shadow" style="background-color: #EFF5FF">
+    <a href="javascript:history.back()"><img src="/./admin/img/chevron-left-solid.svg" style="width:30px;height:30px" alt="imagea"/></a>
+ 
     <!-- Sidebar Toggle (Topbar) -->
     {{-- <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
         <i class="fa fa-bars"></i>
     </button> --}}
 
     <!-- Topbar Search -->
-    <div class="d-flex align-items-center d-flex justify-content-center">
+    <!-- <div class="d-flex align-items-center d-flex justify-content-center">
         <h1 class="h3 text-light-900">DASHBOARD</h1>
-        <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-dark shadow-sm   "><i
-                class="fas fa-download fa-sm text-white-50"></i> Laporan </a> -->
-    </div>
+        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-dark shadow-sm   "><i
+                class="fas fa-download fa-sm text-white-50"></i> Laporan </a>
+    </div> -->
 
     <!-- Topbar Navbar -->
     <ul class="navbar-nav ml-auto ">

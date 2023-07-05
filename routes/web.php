@@ -27,7 +27,13 @@ Route::get('/', function () {
 
 
 
-Route::get('/dashboard',[DashboardController::class,'index']);
-Route::get('/admingallery',[AdminGalleyController::class,'index']);
-Route::get('/admincollection',[AdminGalleyController::class,'index']);
-Route::get('/admintables',[AdminTablesController::class,'index']);
+Route::get('/dashboard',[DashboardController::class,'index'])->name('dashboard');
+
+
+Route::get('/squad', [DashboardController::class, 'squad'])->name('squad');
+Route::get('/squadDetail/{squad}', [DashboardController::class, 'squadDetail'])->name('squadDetail');
+Route::get('/priority', [DashboardController::class, 'priority'])->name('priority');
+Route::get('/priorityDetail/{priority}', [DashboardController::class, 'priorityDetail'])->name('priorityDetail');
+Route::get('/status', [DashboardController::class, 'status'])->name('status');
+Route::get('/statusDetail/{status}', [DashboardController::class, 'statusDetail'])->name('statusDetail');
+Route::get('/filterData', [DashboardController::class, 'filterData'])->name('filterData');
