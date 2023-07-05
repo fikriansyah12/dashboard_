@@ -1,3 +1,4 @@
+
 @extends('layout/admin/sbadmin')
 
 
@@ -197,7 +198,7 @@
                                                 <option value="Squad Syariah (Non Rahn)">Squad Syariah (Non Rahn)</option>
                                             </select>
 
-                                            <select style="margin-left: 30px;" class="form-select" type="searchtahun" name="searchtahun"
+                                            <select class="form-select" type="searchtahun" name="searchtahun"
                                                 aria-label="Default select example">
                                                 <option value="" selected>Year</option>
                                                 <option value="2021">2021</option>
@@ -384,7 +385,6 @@
                         '#33658A', '#55DDE0', '#4F2020', '#FFCE20'
                     ],
                     hoverBorderColor: "rgba(234, 236, 244, 1)",
-
                 }]
             },
             options: {
@@ -393,14 +393,6 @@
                     display: false
                 },
             }
-        });
-    </script>
-    <script>
-        $(function() {
-            /*   $('select').chosen({width: '00px'}); */
-
-            $('ul.chosen-results').css('min-height', '100px');
-            $('ul.chosen-results').css('max-height', '100px');
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

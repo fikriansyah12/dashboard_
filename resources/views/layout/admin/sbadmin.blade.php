@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="{{asset('/admin/css/sb-admin-2.css')}}" rel="stylesheet">
 
+    <link href="{{asset('/admin/css/sb-admin-2.css')}}" rel="stylesheet">
     <title>WEBSITE PEGADAIAN</title>
     @include('includes.admin.style')
 

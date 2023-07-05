@@ -294,6 +294,11 @@ body {
     padding: 0 4px;
 }
 
+#filters{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 @media (min-width: 992px) {
     .gallery-section .column {
         -ms-flex: 25%;

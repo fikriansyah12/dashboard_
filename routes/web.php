@@ -37,6 +37,3 @@ Route::get('/priorityDetail/{priority}', [DashboardController::class, 'priorityD
 Route::get('/status', [DashboardController::class, 'status'])->name('status');
 Route::get('/statusDetail/{status}', [DashboardController::class, 'statusDetail'])->name('statusDetail');
 Route::get('/filterData', [DashboardController::class, 'filterData'])->name('filterData');
-Route::get('/admingallery',[AdminGalleyController::class,'index']);
-Route::get('/admincollection',[AdminGalleyController::class,'index']);
-Route::get('/admintables',[AdminTablesController::class,'index']);

@@ -7,7 +7,7 @@ use App\Models\Data;
 use Carbon\Carbon;
 use Exception;
 
-class DashboardController extends Controller
+class DashboardController
 {
     public function index(Request $request)
     {
